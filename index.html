@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/jpg" href="img/favilogo-black.png"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
-    <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Gothic+A1|Oswald" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/5dee76c536.js" crossorigin="anonymous"></script>
     <title>Daniel Barrera - Programador</title>
 </head>
 <body>
@@ -18,7 +18,10 @@
                 <img src="img/logo-blanco.png" alt="" class="logo-inicio">
             </div>
             <div class="menu-nav">
-                <a href="">Saludame!</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#portafolio">Mis Trabajos</a>
+                <a href="#contacto">Contacto</a>
+                <a href="#tecnologias">Tecnologías</a>
             </div>
         </nav>
     </header>
@@ -33,7 +36,7 @@
         </div>
     </div><!--hero-->
 
-    <div class="servicios contenedor">
+    <div class="servicios contenedor" id="servicios">
         <div class="servicio">
             <h2>Diseño Web</h2>
             <i class="fas fa-pencil-alt"></i>
@@ -51,14 +54,28 @@
         </div>
     </div><!--.servicios-->
 
-    <section class="portafolio contenedor">
-        <h2>Mi Portafolio</h2>
+    <section class="portafolio contenedor" id="portafolio">
+        <h2>Algunos de mis proyectos</h2>
         <div id="listado" class="listado">
 
         </div>
     </section>
 
-    <footer class="footer">
+    <section class="tecnologias contenedor" id="tecnologias">
+        <h2>Tecnologías que uso</h2>
+        <div class="iconos-tecnologias">
+            <i class="fab fa-html5 fa-9x" style="color: #e34c26;"></i>
+            <i class="fab fa-css3-alt fa-9x" style="color: #2965f1;"></i>
+            <i class="fab fa-js-square fa-9x" style="color: #f0db4f;"></i>
+            <i class="fab fa-bootstrap fa-9x" style="color: #563d7c;"></i>
+            <i class="fab fa-react fa-9x" style="color: rgb(0, 216, 255);"></i>
+            <i class="fab fa-node fa-9x" style="color: #3c873a;"></i>
+            <i class="fab fa-gulp fa-9x" style="color: #db4446;"></i>
+            <i class="fab fa-sass fa-9x" style="color: #cd6799;"></i>
+        </div>
+    </section>
+
+    <footer class="footer" id="contacto">
         <div class="contenedor ">
             <div class="widget">
                 <h3>Contacto</h3>
@@ -66,7 +83,12 @@
                 <p>Email: dbarrera.ap@gmail.com</p>
             </div>
             <div class="widget">
-                <img src="img/logo_small_icon_only.png" alt="" class="logo">
+                <a href="https://github.com/Arlez/" target="_blank">
+                    <i class="fab fa-github fa-3x"></i>
+                </a>
+                <a href="www.linkedin.com/in/dbarreradev" target="_blank">
+                    <i class="fab fa-linkedin  fa-3x"></i>
+                </a>
                 <p>Aprendiendo cada día cosas nuevas y mejorando mis habilidades</p>
             </div>
         </div>

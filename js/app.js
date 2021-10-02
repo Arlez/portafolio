@@ -13,11 +13,13 @@ function cargarPortafolio(){
             //crear template
             html+= `
                 <div class="elemento">
-                    <img src="img/${portafolio.id}.jpg" id="">
+                    <a href="webs/${portafolio.link}" target="_blank">
+                    <img src="img/${portafolio.id}.png" id="${portafolio.id}">
                     <div class="contenido">
                         <h3>${portafolio.nombre}</h3>
                         <p>${portafolio.desc}</p>
                     </div>
+                    </a>
                 </div>
             `;
         });

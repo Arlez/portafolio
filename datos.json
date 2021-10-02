@@ -2,43 +2,21 @@
     "portafolio" : [
         {
             "id" : 1,
-            "nombre" : "Sitio Web",
-            "desc" : "Molestias quam iure quia. Magni accusamus, itaque alias ipsa."
+            "nombre" : "Rock & EDM Festival",
+            "desc" : "Sitio Web de información sobre eventos musicales usando JavaScript y dependencias como Sass.",
+            "link": "festival-musica"
         },
         {
             "id" : 2,
-            "nombre" : "App",
-            "desc" : "Molestias quam iure quia. Magni accusamus, itaque alias ipsa."
+            "nombre" : "Bolg de Cafe",
+            "desc" : "Este sitio esta creado usando las tecnologías básicas como HTML5 y CSS3.",
+            "link": "blogdecafe"
         },
         {
             "id" : 3,
-            "nombre" : "App",
-            "desc" : "Molestias quam iure quia. Magni accusamus, itaque alias ipsa."
-        },
-        {
-            "id" : 4,
-            "nombre" : "Aplicación Web",
-            "desc" : "Molestias quam iure quia. Magni accusamus, itaque alias ipsa."
-        },
-        {
-            "id" : 5,
-            "nombre" : "App",
-            "desc" : "Molestias quam iure quia. Magni accusamus, itaque alias ipsa."
-        },
-        {
-            "id" : 6,
-            "nombre" : "App",
-            "desc" : "Molestias quam iure quia. Magni accusamus, itaque alias ipsa."
-        },
-        {
-            "id" : 7,
-            "nombre" : "App",
-            "desc" : "Molestias quam iure quia. Magni accusamus, itaque alias ipsa."
-        },
-        {
-            "id" : 8,
-            "nombre" : "App",
-            "desc" : "Molestias quam iure quia. Magni accusamus, itaque alias ipsa."
+            "nombre" : "Bienes Raices",
+            "desc" : "En este sitio fue creado utilizando CSS con Grid y Flexbox.",
+            "link": "bienes"
         }
     ]
 }
