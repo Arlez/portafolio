@@ -4,19 +4,19 @@
             "id" : 1,
             "nombre" : "Rock & EDM Festival",
             "desc" : "Sitio Web de información sobre eventos musicales usando JavaScript y dependencias como Sass.",
-            "link": "festival-musica"
+            "link": "webs/festival-musica"
         },
         {
             "id" : 2,
             "nombre" : "Bolg de Cafe",
-            "desc" : "Este sitio esta creado usando las tecnologías básicas como HTML5 y CSS3.",
-            "link": "blogdecafe"
+            "desc" : "Un sitio web basado en un Blog de Cafe usando tecnologias bascicas como HTML y CSS.",
+            "link": "https://blogdecafe-dab.netlify.app/"
         },
         {
             "id" : 3,
-            "nombre" : "Bienes Raices",
-            "desc" : "En este sitio fue creado utilizando CSS con Grid y Flexbox.",
-            "link": "bienes"
+            "nombre" : "RealStateGDL",
+            "desc" : "Ejemplo de sitio de una inmoviliaria creado con HTML, CSS y Bootstrap.",
+            "link": "https://realstategdl.netlify.app/"
         }
     ]
 }

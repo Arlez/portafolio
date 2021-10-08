@@ -184,6 +184,9 @@ p{
 .widget-logo{
     display: flex;
 }
+.elemento a{
+    text-align: center;
+}
 /*.footer*/
 @media (min-width:768px){
     .servicios{

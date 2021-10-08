@@ -13,7 +13,7 @@ function cargarPortafolio(){
             //crear template
             html+= `
                 <div class="elemento">
-                    <a href="webs/${portafolio.link}" target="_blank">
+                    <a href="${portafolio.link}" target="_blank">
                     <img src="img/${portafolio.id}.png" id="${portafolio.id}">
                     <div class="contenido">
                         <h3>${portafolio.nombre}</h3>
