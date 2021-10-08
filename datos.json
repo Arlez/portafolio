@@ -2,9 +2,9 @@
     "portafolio" : [
         {
             "id" : 1,
-            "nombre" : "Rock & EDM Festival",
-            "desc" : "Sitio Web de información sobre eventos musicales usando JavaScript y dependencias como Sass.",
-            "link": "webs/festival-musica"
+            "nombre" : "Escuela de Cocina",
+            "desc" : "Ejemplo de página web de una escuela de cocina desarrollada con HTML, CSS y Bootstrap.",
+            "link": "https://escuela-cocina.netlify.app/"
         },
         {
             "id" : 2,
