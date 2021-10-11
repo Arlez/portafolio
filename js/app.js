@@ -12,14 +12,15 @@ function cargarPortafolio(){
         datos.portafolio.forEach(portafolio => {
             //crear template
             html+= `
-                <div class="elemento">
-                    <a href="${portafolio.link}" target="_blank">
-                    <img src="img/${portafolio.id}.png" id="${portafolio.id}">
-                    <div class="contenido">
-                        <h3>${portafolio.nombre}</h3>
-                        <p>${portafolio.desc}</p>
+                <div class="col-md-4 my-4">
+                    <div class="card text-center">
+                        <img src="img/${portafolio.id}.png" id="${portafolio.id}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">${portafolio.nombre}</h5>
+                        <p class="card-text">${portafolio.desc}</p>
+                        <a href="${portafolio.link}" target="_blank" class="btn btn-dark">Ver Proyecto</a>
+                        </div>
                     </div>
-                    </a>
                 </div>
             `;
         });

@@ -68,7 +68,7 @@ p{
     color: rgb(75, 75, 75);
 }
 .logo-inicio{
-    height: 48px;
+    height: 35px;
 }
 .widget a{
     color: white;
@@ -122,12 +122,11 @@ p{
 }
 /*.servicios*/
 /**/
-.tecnologias{
-    margin-top: 5rem;
-    border-top: .1rem solid black;
+#tecnologias,
+#portafolio{
+    margin-top: 5rem 0;
     padding-top: 5rem;
-    margin-bottom: 5rem;
-
+    border-top: .1rem solid #e1e1e1;
 }
 .iconos-tecnologias i{
     margin: 1rem 2rem;
@@ -143,7 +142,7 @@ p{
     padding-top: 5rem;
 }
 .elemento{
-    border-bottom: 1px solid #5b5b5b;
+    border-bottom: 1px solid #e1e1e1;
     margin-bottom: 3rem;
 }
 .elemento:last-of-type{
@@ -160,17 +159,16 @@ p{
     border: .1rem solid rgb(190, 190, 190);
     border-radius: .2rem;
 }
+.logosql{
+    max-width: 100%;
+    width: 100px;
+}
+.card{
+    border: none!important;
+}
 /*.portafolio*/
 
 /*Footer*/
-.footer{
-    background-image: url(../img/contacto.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    padding: 2rem 0;
-    margin-top: 2rem;
-}
 .footer p{
     font-weight: bold;
 }
@@ -180,7 +178,10 @@ p{
 .logo{
     width: 5%;
 }
-
+.card-img-top{
+    border: .1rem solid #e1e1e1!important;
+    border-radius: .3rem;
+}
 .widget-logo{
     display: flex;
 }
