@@ -18,7 +18,7 @@ function cargarPortafolio(){
                         <div class="card-body">
                         <h5 class="card-title">${portafolio.nombre}</h5>
                         <p class="card-text">${portafolio.desc}</p>
-                        <a href="${portafolio.link}" target="_blank" class="btn btn-dark">Ver Proyecto</a>
+                        <a href="${portafolio.link}" target="_blank" class="btn btn-outline-dark btn-lg">Ver Proyecto</a>
                         </div>
                     </div>
                 </div>
