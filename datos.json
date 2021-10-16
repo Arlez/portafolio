@@ -3,13 +3,13 @@
         {
             "id" : 1,
             "nombre" : "Escuela de Cocina",
-            "desc" : "Ejemplo de página web de una escuela de cocina desarrollada con HTML, CSS y Bootstrap.",
+            "desc" : "Sitio basado en de cocina desarrollada con HTML, CSS y Bootstrap.",
             "link": "https://escuela-cocina.netlify.app/"
         },
         {
             "id" : 2,
             "nombre" : "Bolg de Cafe",
-            "desc" : "Un sitio web basado en un Blog de Café usando tecnologías básicas como HTML y CSS.",
+            "desc" : "Sitio basado en un Blog de Café desarrollado con HTML y CSS.",
             "link": "https://blogdecafe-dab.netlify.app/"
         },
         {
@@ -17,6 +17,17 @@
             "nombre" : "RealStateGDL",
             "desc" : "Ejemplo de sitio de una inmobiliaria creado con HTML, CSS y Bootstrap.",
             "link": "https://realstategdl.netlify.app/"
+        },{
+            "id" : 4,
+            "nombre" : "TiendaMuebles",
+            "desc" : "Ejemplo de Ecommerce desarrollada con HTML, CSS y Bootstrap.",
+            "link": "https://tiendavirtual-db.netlify.app/"
+        },
+        {
+            "id" : 5,
+            "nombre" : "Meeti",
+            "desc" : "Sitio web de reuniones usando Bootstrap 5 y SASS",
+            "link": "https://meeti-bs5.netlify.app/"
         }
     ]
 }

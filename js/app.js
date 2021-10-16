@@ -8,19 +8,24 @@ function cargarPortafolio(){
         return respuesta.json();
     })
     .then((datos)=>{
+        datos.portafolio.sort((a,b)=>{
+            return a-b;
+        });
+
         let html = '';
         datos.portafolio.forEach(portafolio => {
             //crear template
             html+= `
-                <div class="col-md-4 my-4">
-                    <div class="card text-center">
-                        <img src="img/${portafolio.id}.png" id="${portafolio.id}" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">${portafolio.nombre}</h5>
-                        <p class="card-text">${portafolio.desc}</p>
-                        <a href="${portafolio.link}" target="_blank" class="btn btn-outline-dark btn-lg">Ver Proyecto</a>
-                        </div>
-                    </div>
+                <div class="col-md-6 col-xl-4 mt-4 portafolio">
+                    <a href="${portafolio.link}" target="_blank" class="text-decoration-none text-dark">
+                        <figure>
+                            <img class="img/fluid" src="img/${portafolio.id}.png" id="${portafolio.id}" alt="imagen ${portafolio.nombre}">
+                            <div class="capa d-flex flex-column align-items-center justify-content-center">
+                                <h3 class="fw-bold text-center fs-2 text-white">${portafolio.nombre}</h3>
+                                <p class="m-0 text-center fs-5 text-white">${portafolio.desc}</p>
+                            </div>
+                        </figure>
+                    </a>
                 </div>
             `;
         });
@@ -29,6 +34,7 @@ function cargarPortafolio(){
     })
 }
 
+const fechaInicio = 2021;
 const year = document.querySelector('.year');
 const date = new Date().getFullYear();
-year.textContent = date;
+date === fechaInicio ? year.textContent = date : year.textContent = `${fechaInicio} - ${date}`;
