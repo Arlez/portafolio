@@ -3,31 +3,36 @@
         {
             "id" : 1,
             "nombre" : "Escuela de Cocina",
-            "desc" : "Sitio basado en de cocina desarrollada con HTML, CSS y Bootstrap.",
-            "link": "https://escuela-cocina.netlify.app/"
+            "desc" : "Sitio de cocina desarrollada con HTML, CSS y Bootstrap.",
+            "link": "https://escuela-cocina.netlify.app/",
+            "tipo": "demostración"
         },
         {
             "id" : 2,
             "nombre" : "Bolg de Cafe",
-            "desc" : "Sitio basado en un Blog de Café desarrollado con HTML y CSS.",
-            "link": "https://blogdecafe-dab.netlify.app/"
+            "desc" : "Blog de Café desarrollado con HTML y CSS.",
+            "link": "https://blogdecafe-dab.netlify.app/",
+            "tipo": "demostración"
         },
         {
             "id" : 3,
             "nombre" : "RealStateGDL",
-            "desc" : "Ejemplo de sitio de una inmobiliaria creado con HTML, CSS y Bootstrap.",
-            "link": "https://realstategdl.netlify.app/"
+            "desc" : "Inmobiliaria creado con HTML, CSS y Bootstrap.",
+            "link": "https://realstategdl.netlify.app/",
+            "tipo": "demostración"
         },{
             "id" : 4,
             "nombre" : "TiendaMuebles",
-            "desc" : "Ejemplo de Ecommerce desarrollada con HTML, CSS y Bootstrap.",
-            "link": "https://tiendavirtual-db.netlify.app/"
+            "desc" : "Ecommerce desarrollada con HTML, CSS y Bootstrap.",
+            "link": "https://tiendavirtual-db.netlify.app/",
+            "tipo": "demostración"
         },
         {
             "id" : 5,
             "nombre" : "Meeti",
             "desc" : "Sitio web de reuniones usando Bootstrap 5 y SASS",
-            "link": "https://meeti-bs5.netlify.app/"
+            "link": "https://meeti-bs5.netlify.app/",
+            "tipo": "demostración"
         }
     ]
 }
