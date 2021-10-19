@@ -3,13 +3,13 @@
         {
             "id" : 1,
             "nombre" : "Escuela de Cocina",
-            "desc" : "Sitio de cocina desarrollada con HTML, CSS y Bootstrap.",
+            "desc" : "Sitio de cocina desarrollado con HTML, CSS y Bootstrap 5.",
             "link": "https://escuela-cocina.netlify.app/",
             "tipo": "demostración"
         },
         {
             "id" : 2,
-            "nombre" : "Bolg de Cafe",
+            "nombre" : "Bolg de Café",
             "desc" : "Blog de Café desarrollado con HTML y CSS.",
             "link": "https://blogdecafe-dab.netlify.app/",
             "tipo": "demostración"
@@ -17,7 +17,7 @@
         {
             "id" : 3,
             "nombre" : "RealStateGDL",
-            "desc" : "Inmobiliaria creado con HTML, CSS y Bootstrap.",
+            "desc" : "Inmobiliaria creado con HTML, CSS y Bootstrap 5.",
             "link": "https://realstategdl.netlify.app/",
             "tipo": "demostración"
         },{
@@ -33,6 +33,13 @@
             "desc" : "Sitio web de reuniones usando Bootstrap 5 y SASS",
             "link": "https://meeti-bs5.netlify.app/",
             "tipo": "demostración"
-        }
+        },
+        {
+            "id" : 6,
+            "nombre" : "Rock & EDM Festival",
+            "desc" : "Conciertos de Rock desarrollado con SASS",
+            "link": "https://rockedmfestival-db.netlify.app/",
+            "tipo": "demostración"
+        }        
     ]
 }
