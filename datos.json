@@ -40,6 +40,13 @@
             "desc" : "Conciertos de Rock desarrollado con SASS",
             "link": "https://rockedmfestival-db.netlify.app/",
             "tipo": "demostración"
-        }        
+        },
+        {
+            "id" : 7,
+            "nombre" : "Podcast FM",
+            "desc" : "Plataforma de podcast desarrollado con Bootstrap 5 y SASS",
+            "link": "https://podcastfm-db.netlify.app/",
+            "tipo": "demostración"
+        }         
     ]
 }
