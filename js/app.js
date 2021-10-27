@@ -23,7 +23,6 @@ function cargarPortafolio(){
                             <span>${portafolio.tipo}</span>
                         </span>
                         <a href="${portafolio.link}" target="_blank" class="text-decoration-none text-dark">
-                            
                             <figure>
                                 <img class="img/fluid" src="img/${portafolio.id}.png" id="${portafolio.id}" alt="imagen ${portafolio.nombre}">
                                 <div class="capa d-flex flex-column align-items-center justify-content-center">
