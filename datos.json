@@ -2,51 +2,58 @@
     "portafolio" : [
         {
             "id" : 1,
+            "nombre" : "Carolina Spa",
+            "desc" : "Salon de belleza Desarrolado con Bootstrap 4",
+            "link": "https://carolinaspa-db.netlify.app/",
+            "tipo": 1
+        },
+        {
+            "id" : 2,
             "nombre" : "Escuela de Cocina",
             "desc" : "Sitio de cocina desarrollado con HTML, CSS y Bootstrap 5.",
             "link": "https://escuela-cocina.netlify.app/",
             "tipo": 1
         },
         {
-            "id" : 2,
+            "id" : 3,
             "nombre" : "Bolg de Café",
             "desc" : "Blog de Café desarrollado con HTML y CSS.",
             "link": "https://blogdecafe-dab.netlify.app/",
             "tipo": 1
         },
         {
-            "id" : 3,
+            "id" : 4,
             "nombre" : "RealStateGDL",
             "desc" : "Inmobiliaria creado con HTML, CSS y Bootstrap 5.",
             "link": "https://realstategdl.netlify.app/",
             "tipo": 1
         },{
-            "id" : 4,
+            "id" : 5,
             "nombre" : "TiendaMuebles",
             "desc" : "Ecommerce desarrollada con HTML, CSS y Bootstrap.",
             "link": "https://tiendavirtual-db.netlify.app/",
             "tipo": 1
         },
         {
-            "id" : 5,
+            "id" : 6,
             "nombre" : "Meeti",
             "desc" : "Sitio web de reuniones usando Bootstrap 5 y SASS",
             "link": "https://meeti-bs5.netlify.app/",
             "tipo": 1
         },
         {
-            "id" : 6,
+            "id" : 7,
             "nombre" : "Rock & EDM Festival",
             "desc" : "Conciertos de Rock desarrollado con SASS",
             "link": "https://rockedmfestival-db.netlify.app/",
             "tipo": 1
         },
         {
-            "id" : 7,
+            "id" : 8,
             "nombre" : "Podcast FM",
             "desc" : "Plataforma de podcast desarrollado con Bootstrap 5 y SASS",
             "link": "https://podcastfm-db.netlify.app/",
             "tipo": 1
-        }         
+        }      
     ]
 }
