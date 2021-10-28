@@ -26,7 +26,7 @@ p{
     font-size: 1.2rem;
 }
 .logo-inicio{
-    height: 1.6rem;
+    height: 1.8rem;
 }
 .hero{
     background-image: url(../img/fondo3.jpg);
@@ -39,7 +39,6 @@ p{
 .subtitulo{
     font-size: 1.6rem;
 }
-
 #tecnologias,
 #portafolio{
     margin-top: 5rem 0;
@@ -92,7 +91,6 @@ figure:hover > .capa{
     opacity:1;
     visibility: visible;
 }
-
 figure:hover > img{
     transform: scale(1.2);
 }
