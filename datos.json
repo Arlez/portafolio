@@ -69,7 +69,7 @@
             "nombre" : "Real State",
             "desc" : "Plataforma Inmoviliaria",
             "tecnologias": "SASS, HTML5",
-            "link": "https://podcastfm-db.netlify.app/",
+            "link": "https://realstate-db.netlify.app/",
             "tipo": 1
         }    
     ]
