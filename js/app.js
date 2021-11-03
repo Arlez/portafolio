@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', ()=>{
     cargarPortafolio();
 });
-const archivoActual = window.location.pathname;
+let archivoActual = window.location.pathname;
+if(archivoActual == "/index.html") archivoActual = "/";
 function cargarPortafolio(){
     let url = 'datos.json';
     if(archivoActual !== "/")url = '../datos.json';
@@ -29,6 +30,7 @@ function cargarPortafolio(){
                                     <div class="capa d-flex flex-column align-items-center justify-content-center">
                                         <h3 class="fw-bold text-center fs-2 text-white">${portafolio.nombre}</h3>
                                         <p class="m-0 text-center fs-5 text-white">${portafolio.desc}</p>
+                                        <p class="mt-2 text-center fs-6 text-white">Tecnologías: ${portafolio.tecnologias}</p>
                                     </div>
                                 </figure>
                             </a>
@@ -46,6 +48,7 @@ function cargarPortafolio(){
                                     <div class="capa d-flex flex-column align-items-center justify-content-center">
                                         <h3 class="fw-bold text-center fs-2 text-white">${portafolio.nombre}</h3>
                                         <p class="m-0 text-center fs-5 text-white">${portafolio.desc}</p>
+                                        <p class="mt-2 text-center fs-6 text-white">Tecnologías: ${portafolio.tecnologias}</p>
                                     </div>
                                 </figure>
                             </a>
