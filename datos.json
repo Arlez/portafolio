@@ -3,57 +3,74 @@
         {
             "id" : 1,
             "nombre" : "Carolina Spa",
-            "desc" : "Salon de belleza Desarrolado con Bootstrap 4",
+            "desc" : "Salon de belleza",
+            "tecnologias": "Bootstrap 4",
             "link": "https://carolinaspa-db.netlify.app/",
             "tipo": 1
         },
         {
             "id" : 2,
             "nombre" : "Escuela de Cocina",
-            "desc" : "Sitio de cocina desarrollado con HTML, CSS y Bootstrap 5.",
+            "desc" : "Sitio para escuela de cocina.",
+            "tecnologias": "HTML, CSS, Bootstrap 5",
             "link": "https://escuela-cocina.netlify.app/",
             "tipo": 1
         },
         {
             "id" : 3,
             "nombre" : "Bolg de Café",
-            "desc" : "Blog de Café desarrollado con HTML y CSS.",
+            "desc" : "Sitio de Blogs.",
+            "tecnologias": "HTML, CSS",
             "link": "https://blogdecafe-dab.netlify.app/",
             "tipo": 1
         },
         {
             "id" : 4,
             "nombre" : "RealStateGDL",
-            "desc" : "Inmobiliaria creado con HTML, CSS y Bootstrap 5.",
+            "desc" : "Plataforma Inmobiliaria.",
+            "tecnologias": "HTML, CSS, Bootstrap 5",
             "link": "https://realstategdl.netlify.app/",
             "tipo": 1
         },{
             "id" : 5,
             "nombre" : "TiendaMuebles",
-            "desc" : "Ecommerce desarrollada con HTML, CSS y Bootstrap.",
+            "desc" : "Ecommerce inmoviliario.",
+            "tecnologias": "HTML, CSS, Bootstrap 5",
             "link": "https://tiendavirtual-db.netlify.app/",
             "tipo": 1
         },
         {
             "id" : 6,
             "nombre" : "Meeti",
-            "desc" : "Sitio web de reuniones usando Bootstrap 5 y SASS",
+            "desc" : "Sitio web de reuniones.",
+            "tecnologias": "Bootstrap 5, SASS",
             "link": "https://meeti-bs5.netlify.app/",
             "tipo": 1
         },
         {
             "id" : 7,
             "nombre" : "Rock & EDM Festival",
-            "desc" : "Conciertos de Rock desarrollado con SASS",
+            "desc" : "Conciertos de RockS.",
+            "tecnologias": "SASS, HTML5",
             "link": "https://rockedmfestival-db.netlify.app/",
             "tipo": 1
         },
         {
             "id" : 8,
             "nombre" : "Podcast FM",
-            "desc" : "Plataforma de podcast desarrollado con Bootstrap 5 y SASS",
+            "desc" : "Plataforma de Podcast",
+            "tecnologias": "Bootstrap 5, SASS",
             "link": "https://podcastfm-db.netlify.app/",
             "tipo": 1
-        }      
+        }  
+        ,
+        {
+            "id" : 9,
+            "nombre" : "Real State",
+            "desc" : "Plataforma Inmoviliaria",
+            "tecnologias": "SASS, HTML5",
+            "link": "https://podcastfm-db.netlify.app/",
+            "tipo": 1
+        }    
     ]
 }
