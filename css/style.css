@@ -4,8 +4,12 @@
     --fuenteSecundaria: 'Oswald', sans-serif;
     --primario: #f1a94e;
     --secundario: #44b3c2;
-    --terciario: #2b2b2b;
+    --terciario: #343a40;
     --claro: white;
+    --negro: #000000;
+    --purpleDark: #3E065F;
+    --purpleMid: #700B97;
+    --purpleLight: #8E05C2;
 }
 body{
     font-family: var(--fuertePrincipal);
@@ -25,12 +29,15 @@ h3{
 p{
     font-size: 1.2rem;
 }
+.titulo{
+    background-color: var(--purpleDark);
+}
 .logo-inicio{
     height: 1.8rem;
 }
 .hero{
     background-image: url(../img/fondo3.jpg);
-    height: 40rem;
+    height: 30rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:bottom;
@@ -39,12 +46,19 @@ p{
 .subtitulo{
     font-size: 1.6rem;
 }
+
+/*
 #tecnologias,
 #portafolio{
     margin-top: 5rem 0;
     padding-top: 5rem;
     border-top: .1rem solid #e1e1e1;
 }
+*/
+.bg-portafolio{
+    background-color: var(--purpleDark);
+}
+
 .card{
     border: none!important;
 }
@@ -68,7 +82,7 @@ figure{
     height: 100%;
     width: 100%;
     overflow: hidden;
-    border: .3rem solid #343a40;
+    border: .3rem solid var(--terciario);
     border-radius: .3rem;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.50);
     cursor: pointer;
@@ -82,7 +96,7 @@ figure .capa{
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(52, 58, 64, 0.95);
+    background: rgba(62, 6, 151, .98);
     transition: all .5s ease-out;
     opacity: 0;
     visibility: hidden;
@@ -111,16 +125,14 @@ figure .capa h3{
 }
 .demostracion span{
     position:absolute;
-    left: 0.2rem;
-    top: 1.2rem;
+    left: 0rem;
+    top: 1.1rem;
     color:#fff;
-    font-size:.8rem;
-    font-weight:700;
-    width:10rem;
+    font-size:1rem;
+    width: 15rem;
     height: 35px;
     text-align:center;
-    text-transform:uppercase;
-    background-color:#343a40;
+    background-color:var(--terciario);
     line-height:2rem;
     border-radius: 5px 0px 5px 0px;
 }
