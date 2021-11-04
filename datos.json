@@ -12,7 +12,7 @@
             "id" : 2,
             "nombre" : "Escuela de Cocina",
             "desc" : "Sitio para escuela de cocina.",
-            "tecnologias": "HTML, CSS, Bootstrap 5",
+            "tecnologias": "Bootstrap 5",
             "link": "https://escuela-cocina.netlify.app/",
             "tipo": 1
         },
@@ -20,7 +20,7 @@
             "id" : 3,
             "nombre" : "Bolg de Café",
             "desc" : "Sitio de Blogs.",
-            "tecnologias": "HTML, CSS",
+            "tecnologias": "HTML - CSS",
             "link": "https://blogdecafe-dab.netlify.app/",
             "tipo": 1
         },
@@ -28,14 +28,14 @@
             "id" : 4,
             "nombre" : "RealStateGDL",
             "desc" : "Plataforma Inmobiliaria.",
-            "tecnologias": "HTML, CSS, Bootstrap 5",
+            "tecnologias": "Bootstrap 5",
             "link": "https://realstategdl.netlify.app/",
             "tipo": 1
         },{
             "id" : 5,
             "nombre" : "TiendaMuebles",
             "desc" : "Ecommerce inmoviliario.",
-            "tecnologias": "HTML, CSS, Bootstrap 5",
+            "tecnologias": "Bootstrap 5",
             "link": "https://tiendavirtual-db.netlify.app/",
             "tipo": 1
         },
@@ -43,7 +43,7 @@
             "id" : 6,
             "nombre" : "Meeti",
             "desc" : "Sitio web de reuniones.",
-            "tecnologias": "Bootstrap 5, SASS",
+            "tecnologias": "Bootstrap 5 - SASS",
             "link": "https://meeti-bs5.netlify.app/",
             "tipo": 1
         },
@@ -51,7 +51,7 @@
             "id" : 7,
             "nombre" : "Rock & EDM Festival",
             "desc" : "Conciertos de RockS.",
-            "tecnologias": "SASS, HTML5",
+            "tecnologias": "SASS",
             "link": "https://rockedmfestival-db.netlify.app/",
             "tipo": 1
         },
@@ -59,7 +59,7 @@
             "id" : 8,
             "nombre" : "Podcast FM",
             "desc" : "Plataforma de Podcast",
-            "tecnologias": "Bootstrap 5, SASS",
+            "tecnologias": "Bootstrap 5 - SASS",
             "link": "https://podcastfm-db.netlify.app/",
             "tipo": 1
         }  
@@ -68,7 +68,7 @@
             "id" : 9,
             "nombre" : "Real State",
             "desc" : "Plataforma Inmoviliaria",
-            "tecnologias": "SASS, HTML5",
+            "tecnologias": "SASS",
             "link": "https://realstate-db.netlify.app/",
             "tipo": 1
         }    

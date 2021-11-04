@@ -22,7 +22,7 @@ function cargarPortafolio(){
                     html+= `
                         <div class="col-md-6 col-xl-4 mt-4 portafolio Anime">
                             <span class="demostracion">
-                                <span>${portafolio.tipo === 1 ? "Maqueta" : "Proyecto Real"}</span>
+                                <span>${portafolio.tecnologias}</span>
                             </span>
                             <a href="${portafolio.link}" target="_blank" class="text-decoration-none text-dark">
                                 <figure>
@@ -30,7 +30,6 @@ function cargarPortafolio(){
                                     <div class="capa d-flex flex-column align-items-center justify-content-center">
                                         <h3 class="fw-bold text-center fs-2 text-white">${portafolio.nombre}</h3>
                                         <p class="m-0 text-center fs-5 text-white">${portafolio.desc}</p>
-                                        <p class="mt-2 text-center fs-6 text-white">Tecnologías: ${portafolio.tecnologias}</p>
                                     </div>
                                 </figure>
                             </a>
@@ -40,7 +39,7 @@ function cargarPortafolio(){
                     html+= `
                         <div class="col-md-6 col-xl-4 mt-4 portafolio Anime">
                             <span class="demostracion">
-                                <span>${portafolio.tipo === 1 ? "Maqueta" : "Proyecto Real"}</span>
+                                <span>${portafolio.tecnologias}</span>
                             </span>
                             <a href="${portafolio.link}" target="_blank" class="text-decoration-none text-dark">
                                 <figure>
@@ -48,7 +47,6 @@ function cargarPortafolio(){
                                     <div class="capa d-flex flex-column align-items-center justify-content-center">
                                         <h3 class="fw-bold text-center fs-2 text-white">${portafolio.nombre}</h3>
                                         <p class="m-0 text-center fs-5 text-white">${portafolio.desc}</p>
-                                        <p class="mt-2 text-center fs-6 text-white">Tecnologías: ${portafolio.tecnologias}</p>
                                     </div>
                                 </figure>
                             </a>
