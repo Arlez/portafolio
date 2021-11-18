@@ -62,8 +62,7 @@
             "tecnologias": "Bootstrap 5 - SASS",
             "link": "https://podcastfm-db.netlify.app/",
             "tipo": 1
-        }  
-        ,
+        },
         {
             "id" : 9,
             "nombre" : "Real State",
@@ -71,6 +70,14 @@
             "tecnologias": "SASS",
             "link": "https://realstate-db.netlify.app/",
             "tipo": 1
-        }    
+        },
+        {
+            "id" : 10,
+            "nombre" : "TechPRO",
+            "desc" : "Sitio web para Audifonos",
+            "tecnologias": "CSS3, HTML",
+            "link": "https://techpro-db.netlify.app/",
+            "tipo": 1
+        }  
     ]
 }
