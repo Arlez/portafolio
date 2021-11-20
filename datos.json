@@ -78,6 +78,14 @@
             "tecnologias": "CSS3, HTML",
             "link": "https://techpro-db.netlify.app/",
             "tipo": 1
-        }  
+        },
+        {
+            "id" : 11,
+            "nombre" : "Citas",
+            "desc" : "Administrador de Citas",
+            "tecnologias": "React",
+            "link": "https://citas-react-db.netlify.app/",
+            "tipo": 1
+        }   
     ]
 }
