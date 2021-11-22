@@ -86,6 +86,14 @@
             "tecnologias": "React",
             "link": "https://citas-react-db.netlify.app/",
             "tipo": 1
-        }   
+        },
+        {
+            "id" : 12,
+            "nombre" : "Universidad",
+            "desc" : "Sitio de cursos online",
+            "tecnologias": "Bootstrap 5, SASS",
+            "link": "https://universidad-bs5-db.netlify.app/",
+            "tipo": 1
+        } 
     ]
 }
