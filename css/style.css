@@ -46,6 +46,9 @@ p{
 .subtitulo{
     font-size: 1.6rem;
 }
+.bg{
+    background-color: var(--purpleDark);
+}
 
 /*
 #tecnologias,
