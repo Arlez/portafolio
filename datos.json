@@ -83,7 +83,7 @@
             "id" : 11,
             "nombre" : "Citas",
             "desc" : "Administrador de Citas",
-            "tecnologias": "React",
+            "tecnologias": "React, Skeleton",
             "link": "https://citas-react-db.netlify.app/",
             "tipo": 1
         },
@@ -93,6 +93,14 @@
             "desc" : "Sitio de cursos online",
             "tecnologias": "Bootstrap 5, SASS",
             "link": "https://universidad-bs5-db.netlify.app/",
+            "tipo": 1
+        },
+        {
+            "id" : 13,
+            "nombre" : "Control Presupuesto",
+            "desc" : "App para controlar presupuesto",
+            "tecnologias": "React, Skeleton",
+            "link": "https://presupuesto-react-db.netlify.app/",
             "tipo": 1
         } 
     ]
