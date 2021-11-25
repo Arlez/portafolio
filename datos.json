@@ -81,8 +81,8 @@
         },
         {
             "id" : 11,
-            "nombre" : "Citas",
-            "desc" : "Administrador de Citas",
+            "nombre" : "Citas Mascotas",
+            "desc" : "Administrador de Citas Veterinarias",
             "tecnologias": "React, Skeleton",
             "link": "https://citas-react-db.netlify.app/",
             "tipo": 1
@@ -98,9 +98,17 @@
         {
             "id" : 13,
             "nombre" : "Control Presupuesto",
-            "desc" : "App para controlar presupuesto",
+            "desc" : "App para controlar presupuesto, (proyecto de práctica)",
             "tecnologias": "React, Skeleton",
             "link": "https://presupuesto-react-db.netlify.app/",
+            "tipo": 1
+        },
+        {
+            "id" : 14,
+            "nombre" : "Cotizador de Seguros",
+            "desc" : "Pequeña App para hacer calculo de seguros, (proyecto de práctica)",
+            "tecnologias": "React",
+            "link": "https://cotizador-react-db.netlify.app/",
             "tipo": 1
         } 
     ]
