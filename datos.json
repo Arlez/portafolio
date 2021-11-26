@@ -110,6 +110,14 @@
             "tecnologias": "React",
             "link": "https://cotizador-react-db.netlify.app/",
             "tipo": 1
+        },
+        {
+            "id" : 15,
+            "nombre" : "Frases de BreakingBad",
+            "desc" : "Pequeña App que muestra frases de la serie BreakingBad desde una API, (proyecto de práctica)",
+            "tecnologias": "React, API",
+            "link": "https://frases-breakingbad-db.netlify.app/",
+            "tipo": 1
         } 
     ]
 }
