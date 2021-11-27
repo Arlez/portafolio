@@ -126,6 +126,14 @@
             "tecnologias": "React, API, Materialize",
             "link": "https://clima-react-db.netlify.app/",
             "tipo": 1
+        },
+        {
+            "id" : 17,
+            "nombre" : "Cotizador de Criptomonedas",
+            "desc" : "Cotiza el valor de las 10 criptomonezas más usadas",
+            "tecnologias": "React, API, Axios",
+            "link": "https://cotizador-criptomonedas-react-db.netlify.app/",
+            "tipo": 1
         } 
     ]
 }
