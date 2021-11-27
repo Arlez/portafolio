@@ -118,6 +118,14 @@
             "tecnologias": "React, API",
             "link": "https://frases-breakingbad-db.netlify.app/",
             "tipo": 1
+        },
+        {
+            "id" : 16,
+            "nombre" : "Buscar Clima",
+            "desc" : "Pequeña App con la que puedes buscar el clima desde una API, (proyecto de práctica)",
+            "tecnologias": "React, API, Materialize",
+            "link": "https://clima-react-db.netlify.app/",
+            "tipo": 1
         } 
     ]
 }
