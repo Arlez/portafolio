@@ -134,6 +134,14 @@
             "tecnologias": "React, API, Axios",
             "link": "https://cotizador-criptomonedas-react-db.netlify.app/",
             "tipo": 1
-        } 
+        },
+        {
+            "id" : 18,
+            "nombre" : "Noticias del Mundo",
+            "desc" : "Busca las últimas noticias del mundo",
+            "tecnologias": "React, API",
+            "link": "https://noticias-react-db.netlify.app/",
+            "tipo": 1
+        }  
     ]
 }
