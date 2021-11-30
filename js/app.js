@@ -24,7 +24,7 @@ function cargarPortafolio(){
                             <span class="demostracion">
                                 <span>${portafolio.tecnologias}</span>
                             </span>
-                            <a href="${portafolio.link}" target="_blank" class="text-decoration-none text-dark">
+                            <a href="${portafolio.link}" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-dark">
                                 <figure>
                                     <img class="img/fluid" src="${archivoActual!=="/" ? "../img/" : "img/"}${portafolio.id}.png" id="${portafolio.id}" alt="imagen ${portafolio.nombre}">
                                     <div class="capa d-flex flex-column align-items-center justify-content-center">
