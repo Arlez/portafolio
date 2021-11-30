@@ -150,6 +150,14 @@
             "tecnologias": "React, API",
             "link": "https://pixabay-react-db.netlify.app/",
             "tipo": 1
+        },
+        {
+            "id" : 20,
+            "nombre" : "APP Music",
+            "desc" : "Buscador de Letras de Canciones e información del artista",
+            "tecnologias": "React, API",
+            "link": "https://letras-react-db.netlify.app/",
+            "tipo": 1
         }
     ]
 }
