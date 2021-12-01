@@ -10,7 +10,10 @@
     --purpleDark: #3E065F;
     --purpleMid: #700B97;
     --purpleLight: #8E05C2;
+
 }
+
+
 body{
     font-family: var(--fuertePrincipal);
 }
@@ -36,12 +39,26 @@ p{
     height: 1.8rem;
 }
 .hero{
-    background-image: url(../img/fondo3.jpg);
+    background-image: url(../img/bg5.jpg);
     height: 30rem;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:bottom;
-    display: grid;
+    background-position:center;
+    color: white;
+}
+
+.bg-oscuro{
+    background-color: rgba(7, 7, 7, 0.6);
+    height: 30rem;
+}
+.bg-claro{
+    background-color: rgba(240, 240, 240, 0.6);
+    height: 30rem;
+}
+@media (min-width: 768px){
+    .hero, .bg-claro, .bg-oscuro{
+        height: 40rem;
+    }
 }
 .subtitulo{
     font-size: 1.6rem;
@@ -49,6 +66,9 @@ p{
 .bg{
     background-color: var(--purpleDark);
 }
+
+
+
 
 /*
 #tecnologias,

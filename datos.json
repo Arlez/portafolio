@@ -45,7 +45,7 @@
             "desc" : "Sitio web de reuniones.",
             "tecnologias": "Bootstrap 5 - SASS",
             "link": "https://meeti-bs5.netlify.app/",
-            "tipo": 1
+            "tipo": 2
         },
         {
             "id" : 7,
@@ -61,7 +61,7 @@
             "desc" : "Plataforma de Podcast",
             "tecnologias": "Bootstrap 5 - SASS",
             "link": "https://podcastfm-db.netlify.app/",
-            "tipo": 1
+            "tipo": 2
         },
         {
             "id" : 9,
@@ -69,7 +69,7 @@
             "desc" : "Plataforma Inmoviliaria",
             "tecnologias": "SASS",
             "link": "https://realstate-db.netlify.app/",
-            "tipo": 1
+            "tipo": 2
         },
         {
             "id" : 10,
@@ -77,7 +77,7 @@
             "desc" : "Sitio web para Audifonos",
             "tecnologias": "CSS3, HTML",
             "link": "https://techpro-db.netlify.app/",
-            "tipo": 1
+            "tipo": 2
         },
         {
             "id" : 11,
@@ -93,7 +93,7 @@
             "desc" : "Sitio de cursos online",
             "tecnologias": "Bootstrap 5, SASS",
             "link": "https://universidad-bs5-db.netlify.app/",
-            "tipo": 1
+            "tipo": 2
         },
         {
             "id" : 13,
@@ -133,7 +133,7 @@
             "desc" : "Cotiza el valor de las 10 criptomonezas más usadas",
             "tecnologias": "React, API, Axios",
             "link": "https://cotizador-criptomonedas-react-db.netlify.app/",
-            "tipo": 1
+            "tipo": 2
         },
         {
             "id" : 18,
