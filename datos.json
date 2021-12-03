@@ -159,5 +159,14 @@
             "link": "https://letras-react-db.netlify.app/",
             "tipo": 1
         }
+        ,
+        {
+            "id" : 21,
+            "nombre" : "Recetas de Tragos",
+            "desc" : "Buscador de Recetas para hacer tus propios tragos",
+            "tecnologias": "React, API",
+            "link": "https://tragos-react-db.netlify.app/",
+            "tipo": 1
+        }
     ]
 }
