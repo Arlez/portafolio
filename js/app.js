@@ -13,6 +13,10 @@ const cargarPortafolio = async ()=>{
 
     const {portafolio} = respuesta;
 
+    
+    const npro = document.querySelector('.n-pro');;
+    npro ? npro.textContent = `Total: ${portafolio.length}`: null;
+
     const masProyectos = document.querySelector('.mas-proyectos');
     if( masProyectos && portafolio.length > 6) masProyectos.classList.remove('d-none');
 
