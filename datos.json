@@ -193,7 +193,7 @@
             "nombre" : "Consulta Veterinaria",
             "desc" : "App que permite el seguimiento de animales guardando los datos en LocalStorage",
             "tecnologias": "React, Tailwindcss",
-            "link": "https://tragos-react-db.netlify.app/",
+            "link": "https://consulta-veterinaria-db.netlify.app/",
             "tipo": 2,
             "fecha": "08-12-2021"
         }
