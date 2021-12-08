@@ -6,7 +6,8 @@
             "desc" : "Salon de belleza",
             "tecnologias": "Bootstrap 4",
             "link": "https://carolinaspa-db.netlify.app/",
-            "tipo": 1
+            "tipo": 1,
+            "fecha": "08-10-2021"
         },
         {
             "id" : 2,
@@ -14,7 +15,8 @@
             "desc" : "Sitio para escuela de cocina.",
             "tecnologias": "Bootstrap 5",
             "link": "https://escuela-cocina.netlify.app/",
-            "tipo": 1
+            "tipo": 1,
+            "fecha": "08-10-2021"
         },
         {
             "id" : 3,
@@ -22,7 +24,8 @@
             "desc" : "Sitio de Blogs.",
             "tecnologias": "HTML - CSS",
             "link": "https://blogdecafe-dab.netlify.app/",
-            "tipo": 1
+            "tipo": 1,
+            "fecha": "08-10-2021"
         },
         {
             "id" : 4,
@@ -30,14 +33,16 @@
             "desc" : "Plataforma Inmobiliaria.",
             "tecnologias": "Bootstrap 5",
             "link": "https://realstategdl.netlify.app/",
-            "tipo": 1
+            "tipo": 1,
+            "fecha": "08-10-2021"
         },{
             "id" : 5,
             "nombre" : "TiendaMuebles",
             "desc" : "Ecommerce inmoviliario.",
             "tecnologias": "Bootstrap 5",
             "link": "https://tiendavirtual-db.netlify.app/",
-            "tipo": 1
+            "tipo": 1,
+            "fecha": "16-10-2021"
         },
         {
             "id" : 6,
@@ -45,7 +50,8 @@
             "desc" : "Sitio web de reuniones.",
             "tecnologias": "Bootstrap 5 - SASS",
             "link": "https://meeti-bs5.netlify.app/",
-            "tipo": 2
+            "tipo": 2,
+            "fecha": "16-10-2021"
         },
         {
             "id" : 7,
@@ -53,7 +59,8 @@
             "desc" : "Conciertos de RockS.",
             "tecnologias": "SASS",
             "link": "https://rockedmfestival-db.netlify.app/",
-            "tipo": 1
+            "tipo": 1,
+            "fecha": "19-10-2021"
         },
         {
             "id" : 8,
@@ -61,7 +68,8 @@
             "desc" : "Plataforma de Podcast",
             "tecnologias": "Bootstrap 5 - SASS",
             "link": "https://podcastfm-db.netlify.app/",
-            "tipo": 2
+            "tipo": 1,
+            "fecha": "23-10-2021"
         },
         {
             "id" : 9,
@@ -69,7 +77,8 @@
             "desc" : "Plataforma Inmoviliaria",
             "tecnologias": "SASS",
             "link": "https://realstate-db.netlify.app/",
-            "tipo": 2
+            "tipo": 2,
+            "fecha": "2-11-2021"
         },
         {
             "id" : 10,
@@ -77,7 +86,8 @@
             "desc" : "Sitio web para Audifonos",
             "tecnologias": "CSS3, HTML",
             "link": "https://techpro-db.netlify.app/",
-            "tipo": 2
+            "tipo": 2,
+            "fecha": "17-11-2021"
         },
         {
             "id" : 11,
@@ -85,7 +95,8 @@
             "desc" : "Administrador de Citas Veterinarias",
             "tecnologias": "React, Skeleton",
             "link": "https://citas-react-db.netlify.app/",
-            "tipo": 1
+            "tipo": 1,
+            "fecha": "20-11-2021"
         },
         {
             "id" : 12,
@@ -93,7 +104,8 @@
             "desc" : "Sitio de cursos online",
             "tecnologias": "Bootstrap 5, SASS",
             "link": "https://universidad-bs5-db.netlify.app/",
-            "tipo": 2
+            "tipo": 2,
+            "fecha": "22-11-2021"
         },
         {
             "id" : 13,
@@ -101,7 +113,8 @@
             "desc" : "App para controlar presupuesto, (proyecto de práctica)",
             "tecnologias": "React, Skeleton",
             "link": "https://presupuesto-react-db.netlify.app/",
-            "tipo": 1
+            "tipo": 1,
+            "fecha": "23-11-2021"
         },
         {
             "id" : 14,
@@ -109,7 +122,8 @@
             "desc" : "Pequeña App para hacer calculo de seguros, (proyecto de práctica)",
             "tecnologias": "React",
             "link": "https://cotizador-react-db.netlify.app/",
-            "tipo": 1
+            "tipo": 1,
+            "fecha": "24-11-2021"
         },
         {
             "id" : 15,
@@ -117,7 +131,8 @@
             "desc" : "Pequeña App que muestra frases de la serie BreakingBad desde una API, (proyecto de práctica)",
             "tecnologias": "React, API",
             "link": "https://frases-breakingbad-db.netlify.app/",
-            "tipo": 1
+            "tipo": 1,
+            "fecha": "25-11-2021"
         },
         {
             "id" : 16,
@@ -125,7 +140,8 @@
             "desc" : "Pequeña App con la que puedes buscar el clima desde una API, (proyecto de práctica)",
             "tecnologias": "React, API, Materialize",
             "link": "https://clima-react-db.netlify.app/",
-            "tipo": 1
+            "tipo": 1,
+            "fecha": "26-11-2021"
         },
         {
             "id" : 17,
@@ -133,7 +149,8 @@
             "desc" : "Cotiza el valor de las 10 criptomonezas más usadas",
             "tecnologias": "React, API, Axios",
             "link": "https://cotizador-criptomonedas-react-db.netlify.app/",
-            "tipo": 2
+            "tipo": 2,
+            "fecha": "27-11-2021"
         },
         {
             "id" : 18,
@@ -141,7 +158,8 @@
             "desc" : "Busca las últimas noticias del mundo",
             "tecnologias": "React, API",
             "link": "https://noticias-react-db.netlify.app/",
-            "tipo": 1
+            "tipo": 1,
+            "fecha": "29-11-2021"
         },
         {
             "id" : 19,
@@ -149,7 +167,8 @@
             "desc" : "Buscador de Imagenes",
             "tecnologias": "React, API",
             "link": "https://pixabay-react-db.netlify.app/",
-            "tipo": 1
+            "tipo": 1,
+            "fecha": "29-11-2021"
         },
         {
             "id" : 20,
@@ -157,16 +176,26 @@
             "desc" : "Buscador de Letras de Canciones e información del artista",
             "tecnologias": "React, API",
             "link": "https://letras-react-db.netlify.app/",
-            "tipo": 1
-        }
-        ,
+            "tipo": 1,
+            "fecha": "30-11-2021"
+        },
         {
             "id" : 21,
             "nombre" : "Recetas de Tragos",
             "desc" : "Buscador de Recetas para hacer tus propios tragos",
             "tecnologias": "React, API",
             "link": "https://tragos-react-db.netlify.app/",
-            "tipo": 1
+            "tipo": 1,
+            "fecha": "02-12-2021"
+        },
+        {
+            "id" : 22,
+            "nombre" : "Consulta Veterinaria",
+            "desc" : "App que permite el seguimiento de animales guardando los datos en LocalStorage",
+            "tecnologias": "React, Tailwindcss",
+            "link": "https://tragos-react-db.netlify.app/",
+            "tipo": 2,
+            "fecha": "08-12-2021"
         }
     ]
 }

@@ -32,6 +32,7 @@ const cargarPortafolio = async ()=>{
                             <div class="capa d-flex flex-column align-items-center justify-content-center">
                                 <h3 class="fw-bold text-center fs-2 text-white">${portafolio.nombre}</h3>
                                 <p class="m-0 text-center fs-5 text-white">${portafolio.desc}</p>
+                                <p class="m-0 text-center fs-6 text-white mt-3"> Subido: ${portafolio.fecha}</p>
                             </div>
                         </figure>
                     </a>
@@ -49,6 +50,7 @@ const cargarPortafolio = async ()=>{
                             <div class="capa d-flex flex-column align-items-center justify-content-center">
                                 <h3 class="fw-bold text-center fs-2 text-white">${portafolio.nombre}</h3>
                                 <p class="m-0 text-center fs-5 text-white">${portafolio.desc}</p>
+                                <p class="m-0 text-center fs-6 text-white mt-3"> Subido: ${portafolio.fecha}</p>
                             </div>
                         </figure>
                     </a>
