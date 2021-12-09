@@ -191,11 +191,20 @@
         {
             "id" : 22,
             "nombre" : "Consulta Veterinaria",
-            "desc" : "App que permite el seguimiento de animales guardando los datos en LocalStorage",
+            "desc" : "App que permite el seguimiento de animales almacenando los datos en LocalStorage",
             "tecnologias": "React, Tailwindcss",
             "link": "https://consulta-veterinaria-db.netlify.app/",
             "tipo": 2,
             "fecha": "08-12-2021"
+        },
+        {
+            "id" : 23,
+            "nombre" : "GuitarLA",
+            "desc" : "Ecommerce de Venta de instrumentos músicales",
+            "tecnologias": "Bootstrap 5, SASS",
+            "link": "https://guitarla-bt5-db.netlify.app/",
+            "tipo": 1,
+            "fecha": "09-12-2021"
         }
     ]
 }
