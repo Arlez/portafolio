@@ -27,36 +27,34 @@ const cargarPortafolio = async ()=>{
         if(archivoActual == "/" && portafolio.tipo === 2){
             html+= `
                 <div class="col-md-6 col-xl-4 mt-4 portafolio Anime">
-                    <span class="demostracion">
-                        <span>${portafolio.tecnologias}</span>
-                    </span>
-                    <a href="${portafolio.link}" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-dark">
-                        <figure>
-                            <img class="img/fluid" src="${archivoActual!=="/" ? "../img/" : "img/"}${portafolio.id}.png" id="${portafolio.id}" alt="imagen ${portafolio.nombre}">
-                            <div class="capa d-flex flex-column align-items-center justify-content-center">
-                                <h3 class="fw-bold text-center fs-2 text-white">${portafolio.nombre}</h3>
-                                <p class="m-0 text-center fs-5 text-white">${portafolio.desc}</p>
-                                <p class="m-0 text-center fs-6 text-white mt-3"> Subido: ${portafolio.fecha}</p>
+                    <a href="${portafolio.link}" class="text-white" rel="noopener noreferrer" target="_blank">
+                        <div class="proyecto rounded position-relative aa">                    
+                            <h2 class="fs-5 titel position-absolute top-0 start-50 translate-middle-x w-100 text-center py-1">${portafolio.tecnologias}</h2>
+                            <img src="img/${portafolio.id}.png" class="img-fluid mx-auto w-100 h-100" alt="imagen ${portafolio.nombre}">
+
+                            <div class="position-absolute top-50 start-50 translate-middle w-75 bb">
+                                <h2 class="text-center fs-1 fw-bold text-uppercase">${portafolio.nombre}</h2>
+                                <p class="text-center">${portafolio.desc}</p>
+                                <p class="fs-6 text-center">Subido: ${portafolio.fecha}</p>
                             </div>
-                        </figure>
+                        </div>
                     </a>
                 </div>
             `;
         }else if(archivoActual !== "/"){
             html+= `
                 <div class="col-md-6 col-xl-4 mt-4 portafolio Anime">
-                    <span class="demostracion">
-                        <span>${portafolio.tecnologias}</span>
-                    </span>
-                    <a href="${portafolio.link}" target="_blank" class="text-decoration-none text-dark">
-                        <figure>
-                            <img class="img/fluid" src="${archivoActual!=="/" ? "../img/" : "img/"}${portafolio.id}.png" id="${portafolio.id}" alt="imagen ${portafolio.nombre}">
-                            <div class="capa d-flex flex-column align-items-center justify-content-center">
-                                <h3 class="fw-bold text-center fs-2 text-white">${portafolio.nombre}</h3>
-                                <p class="m-0 text-center fs-5 text-white">${portafolio.desc}</p>
-                                <p class="m-0 text-center fs-6 text-white mt-3"> Subido: ${portafolio.fecha}</p>
+                    <a href="${portafolio.link}" rel="noopener noreferrer" target="_blank" class="text-decoration-none text-white">
+                        <div class="proyecto rounded position-relative aa">
+                            <h2 class="fs-5 titel position-absolute top-0 start-50 translate-middle-x w-100 text-center py-1">${portafolio.tecnologias}</h2>                               
+                            <img class="img/fluid mx-auto w-100 h100" src="${archivoActual!=="/" ? "../img/" : "img/"}${portafolio.id}.png" id="${portafolio.id}" alt="imagen ${portafolio.nombre}">
+
+                            <div class="position-absolute top-50 start-50 translate-middle w-75 bb">
+                                <h2 class="text-center fs-1 fw-bold text-uppercase">${portafolio.nombre}</h2>
+                                <p class="text-center">${portafolio.desc}</p>
+                                <p class="fs-6 text-center">Subido: ${portafolio.fecha}</p>
                             </div>
-                        </figure>
+                        </div>
                     </a>
                 </div>
             `;
