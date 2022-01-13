@@ -205,6 +205,17 @@
             "link": "https://guitarla-bt5-db.netlify.app/",
             "tipo": 1,
             "fecha": "09-12-2021"
+        },
+        {
+            "id" : 24,
+            "nombre" : "Control Presupuestario",
+            "desc" : "Controla tus gastos con esta App",
+            "tecnologias": "React",
+            "link": "https://controlpresupuesto-db.netlify.app/",
+            "tipo": 1,
+            "fecha": "12-01-2022"
         }
+
+        
     ]
 }
