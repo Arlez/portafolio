@@ -1,221 +1,24 @@
 {
-    "portafolio" : [
-        {
-            "id" : 1,
-            "nombre" : "Carolina Spa",
-            "desc" : "Salon de belleza",
-            "tecnologias": "Bootstrap 4",
-            "link": "https://carolinaspa-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "08-10-2021"
-        },
-        {
-            "id" : 2,
-            "nombre" : "Escuela de Cocina",
-            "desc" : "Sitio para escuela de cocina.",
-            "tecnologias": "Bootstrap 5",
-            "link": "https://escuela-cocina.netlify.app/",
-            "tipo": 1,
-            "fecha": "08-10-2021"
-        },
-        {
-            "id" : 3,
-            "nombre" : "Bolg de Café",
-            "desc" : "Sitio de Blogs.",
-            "tecnologias": "HTML - CSS",
-            "link": "https://blogdecafe-dab.netlify.app/",
-            "tipo": 1,
-            "fecha": "08-10-2021"
-        },
-        {
-            "id" : 4,
-            "nombre" : "RealStateGDL",
-            "desc" : "Plataforma Inmobiliaria.",
-            "tecnologias": "Bootstrap 5",
-            "link": "https://realstategdl.netlify.app/",
-            "tipo": 1,
-            "fecha": "08-10-2021"
-        },{
-            "id" : 5,
-            "nombre" : "TiendaMuebles",
-            "desc" : "Ecommerce inmoviliario.",
-            "tecnologias": "Bootstrap 5",
-            "link": "https://tiendavirtual-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "16-10-2021"
-        },
-        {
-            "id" : 6,
-            "nombre" : "Meeti",
-            "desc" : "Sitio web de reuniones.",
-            "tecnologias": "Bootstrap 5 - SASS",
-            "link": "https://meeti-bs5.netlify.app/",
-            "tipo": 2,
-            "fecha": "16-10-2021"
-        },
-        {
-            "id" : 7,
-            "nombre" : "Rock & EDM Festival",
-            "desc" : "Conciertos de RockS.",
-            "tecnologias": "SASS",
-            "link": "https://rockedmfestival-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "19-10-2021"
-        },
-        {
-            "id" : 8,
-            "nombre" : "Podcast FM",
-            "desc" : "Plataforma de Podcast",
-            "tecnologias": "Bootstrap 5 - SASS",
-            "link": "https://podcastfm-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "23-10-2021"
-        },
-        {
-            "id" : 9,
-            "nombre" : "Real State",
-            "desc" : "Plataforma Inmoviliaria",
-            "tecnologias": "SASS",
-            "link": "https://realstate-db.netlify.app/",
-            "tipo": 2,
-            "fecha": "2-11-2021"
-        },
-        {
-            "id" : 10,
-            "nombre" : "TechPRO",
-            "desc" : "Sitio web para Audifonos",
-            "tecnologias": "CSS3, HTML",
-            "link": "https://techpro-db.netlify.app/",
-            "tipo": 2,
-            "fecha": "17-11-2021"
-        },
-        {
-            "id" : 11,
-            "nombre" : "Citas Mascotas",
-            "desc" : "Administrador de Citas Veterinarias",
-            "tecnologias": "React, Skeleton",
-            "link": "https://citas-react-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "20-11-2021"
-        },
-        {
-            "id" : 12,
-            "nombre" : "Universidad",
-            "desc" : "Sitio de cursos online",
-            "tecnologias": "Bootstrap 5, SASS",
-            "link": "https://universidad-bs5-db.netlify.app/",
-            "tipo": 2,
-            "fecha": "22-11-2021"
-        },
-        {
-            "id" : 13,
-            "nombre" : "Control Presupuesto",
-            "desc" : "App para controlar presupuesto, (proyecto de práctica)",
-            "tecnologias": "React, Skeleton",
-            "link": "https://presupuesto-react-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "23-11-2021"
-        },
-        {
-            "id" : 14,
-            "nombre" : "Cotizador de Seguros",
-            "desc" : "Pequeña App para hacer calculo de seguros, (proyecto de práctica)",
-            "tecnologias": "React",
-            "link": "https://cotizador-react-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "24-11-2021"
-        },
-        {
-            "id" : 15,
-            "nombre" : "Frases de BreakingBad",
-            "desc" : "Pequeña App que muestra frases de la serie BreakingBad desde una API, (proyecto de práctica)",
-            "tecnologias": "React, API",
-            "link": "https://frases-breakingbad-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "25-11-2021"
-        },
-        {
-            "id" : 16,
-            "nombre" : "Buscar Clima",
-            "desc" : "Pequeña App con la que puedes buscar el clima desde una API, (proyecto de práctica)",
-            "tecnologias": "React, API, Materialize",
-            "link": "https://clima-react-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "26-11-2021"
-        },
-        {
-            "id" : 17,
-            "nombre" : "Cotizador de Criptomonedas",
-            "desc" : "Cotiza el valor de las 10 criptomonezas más usadas",
-            "tecnologias": "React, API, Axios",
-            "link": "https://cotizador-criptomonedas-react-db.netlify.app/",
-            "tipo": 2,
-            "fecha": "27-11-2021"
-        },
-        {
-            "id" : 18,
-            "nombre" : "Noticias del Mundo",
-            "desc" : "Busca las últimas noticias del mundo",
-            "tecnologias": "React, API",
-            "link": "https://noticias-react-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "29-11-2021"
-        },
-        {
-            "id" : 19,
-            "nombre" : "Pixabay API",
-            "desc" : "Buscador de Imagenes",
-            "tecnologias": "React, API",
-            "link": "https://pixabay-react-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "29-11-2021"
-        },
-        {
-            "id" : 20,
-            "nombre" : "APP Music",
-            "desc" : "Buscador de Letras de Canciones e información del artista",
-            "tecnologias": "React, API",
-            "link": "https://letras-react-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "30-11-2021"
-        },
-        {
-            "id" : 21,
-            "nombre" : "Recetas de Tragos",
-            "desc" : "Buscador de Recetas para hacer tus propios tragos",
-            "tecnologias": "React, API",
-            "link": "https://tragos-react-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "02-12-2021"
-        },
-        {
-            "id" : 22,
-            "nombre" : "Consulta Veterinaria",
-            "desc" : "App que permite el seguimiento de animales almacenando los datos en LocalStorage",
-            "tecnologias": "React, Tailwindcss",
-            "link": "https://consulta-veterinaria-db.netlify.app/",
-            "tipo": 2,
-            "fecha": "08-12-2021"
-        },
-        {
-            "id" : 23,
-            "nombre" : "GuitarLA",
-            "desc" : "Ecommerce de Venta de instrumentos músicales",
-            "tecnologias": "Bootstrap 5, SASS",
-            "link": "https://guitarla-bt5-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "09-12-2021"
-        },
-        {
-            "id" : 24,
-            "nombre" : "Control Presupuestario",
-            "desc" : "Controla tus gastos con esta App",
-            "tecnologias": "React",
-            "link": "https://controlpresupuesto-db.netlify.app/",
-            "tipo": 1,
-            "fecha": "12-01-2022"
-        }
-
-        
-    ]
+  "portafolio": [
+    {
+      "id": 1,
+      "nombre": "Vivir Mejor",
+      "desc": "Copiloto de salud para pacientes crónicos que maximiza calidad de vida, adherencia y alertas tempranas.",
+      "tecnologias": "React, PWA, IndexedDB, AI",
+      "link": "https://vivirmejorapp.netlify.app",
+      "tipo": 2,
+      "fecha": "19-03-2026",
+      "img": "/img/vivirmejor.png"
+    },
+    {
+      "id": 2,
+      "nombre": "SetFlow",
+      "desc": "Asistente de entrenamiento que guía rutinas, controla descansos y genera planes con IA.",
+      "tecnologias": "PWA, React, IA",
+      "link": "https://mysetflow.netlify.app/",
+      "tipo": 2,
+      "fecha": "19-03-2026",
+      "img": "/img/setflow.png"
+    }
+  ]
 }

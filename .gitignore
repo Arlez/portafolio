@@ -1,9 +1,12 @@
-/.img_grandes
-node_modules
+.img_grandes
+img_grandes
+node_modules/
 .next/
 out/
+tsconfig.tsbuildinfo
 .env
 .env.local
 .DS_Store
 npm-debug.log
 .vscode/
+.idea/
