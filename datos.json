@@ -1,52 +1,24 @@
 {
-    "portafolio" : [
-        {
-            "id" : 1,
-            "nombre" : "Escuela de Cocina",
-            "desc" : "Sitio de cocina desarrollado con HTML, CSS y Bootstrap 5.",
-            "link": "https://escuela-cocina.netlify.app/",
-            "tipo": "demostración"
-        },
-        {
-            "id" : 2,
-            "nombre" : "Bolg de Café",
-            "desc" : "Blog de Café desarrollado con HTML y CSS.",
-            "link": "https://blogdecafe-dab.netlify.app/",
-            "tipo": "demostración"
-        },
-        {
-            "id" : 3,
-            "nombre" : "RealStateGDL",
-            "desc" : "Inmobiliaria creado con HTML, CSS y Bootstrap 5.",
-            "link": "https://realstategdl.netlify.app/",
-            "tipo": "demostración"
-        },{
-            "id" : 4,
-            "nombre" : "TiendaMuebles",
-            "desc" : "Ecommerce desarrollada con HTML, CSS y Bootstrap.",
-            "link": "https://tiendavirtual-db.netlify.app/",
-            "tipo": "demostración"
-        },
-        {
-            "id" : 5,
-            "nombre" : "Meeti",
-            "desc" : "Sitio web de reuniones usando Bootstrap 5 y SASS",
-            "link": "https://meeti-bs5.netlify.app/",
-            "tipo": "demostración"
-        },
-        {
-            "id" : 6,
-            "nombre" : "Rock & EDM Festival",
-            "desc" : "Conciertos de Rock desarrollado con SASS",
-            "link": "https://rockedmfestival-db.netlify.app/",
-            "tipo": "demostración"
-        },
-        {
-            "id" : 7,
-            "nombre" : "Podcast FM",
-            "desc" : "Plataforma de podcast desarrollado con Bootstrap 5 y SASS",
-            "link": "https://podcastfm-db.netlify.app/",
-            "tipo": "demostración"
-        }         
-    ]
+  "portafolio": [
+    {
+      "id": 1,
+      "nombre": "Vivir Mejor",
+      "desc": "Copiloto de salud para pacientes crónicos que maximiza calidad de vida, adherencia y alertas tempranas.",
+      "tecnologias": "React, PWA, IndexedDB, AI",
+      "link": "https://vivirmejorapp.netlify.app",
+      "tipo": 2,
+      "fecha": "19-03-2026",
+      "img": "/img/vivirmejor.png"
+    },
+    {
+      "id": 2,
+      "nombre": "SetFlow",
+      "desc": "Asistente de entrenamiento que guía rutinas, controla descansos y genera planes con IA.",
+      "tecnologias": "PWA, React, IA",
+      "link": "https://mysetflow.netlify.app/",
+      "tipo": 2,
+      "fecha": "19-03-2026",
+      "img": "/img/setflow.png"
+    }
+  ]
 }
