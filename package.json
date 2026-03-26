@@ -9,12 +9,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "generate-images": "node scripts/generate-images.js"
+    "generate-images": "npx tsx scripts/generate-images.ts"
   },
   "dependencies": {
     "next": "^16.2.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0"
   }
 }

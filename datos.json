@@ -2,22 +2,57 @@
   "portafolio": [
     {
       "id": 1,
-      "nombre": "Vivir Mejor",
-      "desc": "Copiloto de salud para pacientes crónicos que maximiza calidad de vida, adherencia y alertas tempranas.",
-      "tecnologias": "React, PWA, IndexedDB, AI",
-      "link": "https://vivirmejorapp.netlify.app",
+      "nombre": "Digital Classbook",
+      "desc": "Plataforma full-stack que publica contenido curricular con rutas de aprendizaje y generación automática de ejercicios.",
+      "descEn": "Full-stack platform publishing curriculum with personalized learning paths and auto exercise generation.",
+      "tecnologias": "Next.js, NestJS, PostgreSQL, Docker",
+      "link": "#",
       "tipo": 2,
-      "fecha": "19-03-2026",
-      "img": "/img/vivirmejor.png"
+      "fecha": "2024",
+      "img": "/img/project1.png"
     },
     {
       "id": 2,
+      "nombre": "EdTech Analytics",
+      "desc": "Pipeline analítico y dashboard que correlaciona actividad estudiantil con desempeño y propone intervenciones.",
+      "descEn": "Analytics pipeline and dashboard correlating student activity with performance and recommending interventions.",
+      "tecnologias": "Node.js, PostgreSQL, Next.js",
+      "link": "#",
+      "tipo": 2,
+      "fecha": "2024",
+      "img": "/img/project2.png"
+    },
+    {
+      "id": 3,
+      "nombre": "AI Developer Tools",
+      "desc": "Suite de herramientas que usan LLMs para generar tests, documentación y revisión automatizada de PRs.",
+      "descEn": "Tool suite using LLMs to generate tests, documentation and automated PR reviews.",
+      "tecnologias": "TypeScript, OpenAI, GitHub Actions",
+      "link": "#",
+      "tipo": 2,
+      "fecha": "2024",
+      "img": "/img/project1.png"
+    },
+    {
+      "id": 4,
+      "nombre": "Vivir Mejor",
+      "desc": "Copiloto de salud para pacientes crónicos que maximiza calidad de vida y adherencia al tratamiento.",
+      "descEn": "Health copilot for chronic patients that maximizes quality of life and treatment adherence.",
+      "tecnologias": "React, PWA, IndexedDB, AI",
+      "link": "https://vivirmejorapp.netlify.app",
+      "tipo": 2,
+      "fecha": "2026",
+      "img": "/img/vivirmejor.png"
+    },
+    {
+      "id": 5,
       "nombre": "SetFlow",
       "desc": "Asistente de entrenamiento que guía rutinas, controla descansos y genera planes con IA.",
-      "tecnologias": "PWA, React, IA",
+      "descEn": "Workout assistant that guides routines, manages rest periods and generates AI-powered plans.",
+      "tecnologias": "React, PWA, AI",
       "link": "https://mysetflow.netlify.app/",
       "tipo": 2,
-      "fecha": "19-03-2026",
+      "fecha": "2026",
       "img": "/img/setflow.png"
     }
   ]
